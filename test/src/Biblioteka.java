@@ -45,9 +45,9 @@ public class Biblioteka {
 		((Czytelnik)b.tab[5] ).Wypozycz(new Ksiazka(76380, 1.5, false));
 		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(23505, 3, false));
 		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(14253, 1.7, false));
-		((Czytelnik)b.tab[6] ).Wypo篡cz(new Ksiazka(26352, 2.4, true));
-		((Czytelnik)b.tab[6] ).Wypo篡cz(new Ksiazka());
-		((Czytelnik)b.tab[6] ).Wypo篡cz(new Ksiazka(50401, 1.9, false));
+		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(26352, 2.4, true));
+		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka());
+		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(50401, 1.9, false));
 		
 		for(int i = 0; i< b.n; i++)		//wyswietlanie czytelnikow
 		{
