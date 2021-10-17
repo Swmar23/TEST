@@ -10,9 +10,9 @@ public class Biblioteka {
 		b.tab[0] = new Pracownik("Kowalski", "12345678", "bibliotekarz", 2500, 11);
 		b.tab[1] = new Pracownik();
 		b.tab[2] = new Czytelnik();
-		b.tab[3] = new Pracownik("Nowak", "23472345", "sprzπtacz", 1500, 8);
+		b.tab[3] = new Pracownik("Nowak", "23472345", "sprzÈùñacz", 1500, 8);
 		b.tab[4] = new Pracownik("Wolska", "94653264", "bibliotekarka", 2600, 11);
-		b.tab[5] = new Czytelnik("G≥owacki", "86345134", 3);//
+		b.tab[5] = new Czytelnik("GÈÄôwacki", "86345134", 3);//
 		b.tab[6] = new Czytelnik("Malska", "14734954", 5);//
 		b.tab[7] = new Pracownik("Wolski", "64267843", "dyrektor", 2700, 13);
 		
@@ -35,19 +35,19 @@ public class Biblioteka {
 			if(b.tab[i] instanceof Pracownik )
 			{
 				System.out.printf("%s", b.tab[i].toString());
-				( (Pracownik)b.tab[i] ).wyúwietlLiczbÍNadgodzin();
+				( (Pracownik)b.tab[i] ).wyÓØûietlLiczbÁáãadgodzin();
 			}
 				
 		}
 		
-		((Czytelnik)b.tab[5] ).Wypoøycz(new Ksiπøka());
-		((Czytelnik)b.tab[5] ).Wypoøycz(new Ksiπøka(96045, 2, true));
-		((Czytelnik)b.tab[5] ).Wypoøycz(new Ksiπøka(76380, 1.5, false));
-		((Czytelnik)b.tab[6] ).Wypoøycz(new Ksiπøka(23505, 3, false));
-		((Czytelnik)b.tab[6] ).Wypoøycz(new Ksiπøka(14253, 1.7, false));
-		((Czytelnik)b.tab[6] ).Wypoøycz(new Ksiπøka(26352, 2.4, true));
-		((Czytelnik)b.tab[6] ).Wypoøycz(new Ksiπøka());
-		((Czytelnik)b.tab[6] ).Wypoøycz(new Ksiπøka(50401, 1.9, false));
+		((Czytelnik)b.tab[5] ).Wypozycz(new Ksiazka());
+		((Czytelnik)b.tab[5] ).Wypozycz(new Ksiazka(96045, 2, true));
+		((Czytelnik)b.tab[5] ).Wypozycz(new Ksiazka(76380, 1.5, false));
+		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(23505, 3, false));
+		((Czytelnik)b.tab[6] ).Wypozycz(new Ksiazka(14253, 1.7, false));
+		((Czytelnik)b.tab[6] ).WypoÁØ°cz(new Ksiazka(26352, 2.4, true));
+		((Czytelnik)b.tab[6] ).WypoÁØ°cz(new Ksiazka());
+		((Czytelnik)b.tab[6] ).WypoÁØ°cz(new Ksiazka(50401, 1.9, false));
 		
 		for(int i = 0; i< b.n; i++)		//wyswietlanie czytelnikow
 		{
@@ -85,7 +85,7 @@ public class Biblioteka {
 			}
 				
 		}
-		System.out.printf("NajwiÍcej zarobi≥: %s", ((Pracownik)b.tab[msce]).getStanowisko());
+		System.out.printf("NajwiÁíöej zarobiÔøΩ: %s", ((Pracownik)b.tab[msce]).getStanowisko());
 	}
 
 }
