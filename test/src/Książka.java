@@ -33,7 +33,6 @@ public class Ksi¹¿ka {
 		return kara;
 	}
 	
-	
 	public String toString()
 	{
 		if(sygnatura == 0)

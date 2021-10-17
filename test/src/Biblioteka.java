@@ -35,7 +35,11 @@ public class Biblioteka {
 			if(b.tab[i] instanceof Pracownik )
 			{
 				System.out.printf("%s", b.tab[i].toString());
+<<<<<<< HEAD
 				( (Pracownik)b.tab[i] ).wyswietlLiczbenadgodzin();
+=======
+				( (Pracownik)b.tab[i] ).wyswietlLiczbeNadgodzin();
+>>>>>>> branch 'master' of https://github.com/Swmar23/test
 			}
 				
 		}
@@ -85,7 +89,7 @@ public class Biblioteka {
 			}
 				
 		}
-		System.out.printf("Najwi璚ej zarobi�: %s", ((Pracownik)b.tab[msce]).getStanowisko());
+		System.out.printf("Najwiecej zarobil: %s", ((Pracownik)b.tab[msce]).getStanowisko());
 	}
 
 }

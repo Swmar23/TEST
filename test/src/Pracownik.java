@@ -41,7 +41,7 @@ public class Pracownik extends Osoba{
 		else return 0;
 	}
 	
-	public void wyœwietlLiczbêNadgodzin()
+	public void wyswietlLiczbeNadgodzin()
 	{
 		System.out.printf("Nadgodziny: %n");
 		if(t != null)
