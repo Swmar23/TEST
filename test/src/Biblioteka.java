@@ -35,7 +35,7 @@ public class Biblioteka {
 			if(b.tab[i] instanceof Pracownik )
 			{
 				System.out.printf("%s", b.tab[i].toString());
-				( (Pracownik)b.tab[i] ).wyietlLiczb燋adgodzin();
+				( (Pracownik)b.tab[i] ).wyswietlLiczbeNadgodzin();
 			}
 				
 		}
@@ -85,7 +85,7 @@ public class Biblioteka {
 			}
 				
 		}
-		System.out.printf("Najwi璚ej zarobi�: %s", ((Pracownik)b.tab[msce]).getStanowisko());
+		System.out.printf("Najwiecej zarobil: %s", ((Pracownik)b.tab[msce]).getStanowisko());
 	}
 
 }
