@@ -10,13 +10,13 @@ public class Biblioteka {
 		b.tab[0] = new Pracownik("Kowalski", "12345678", "bibliotekarz", 2500, 11);
 		b.tab[1] = new Pracownik();
 		b.tab[2] = new Czytelnik();
-		b.tab[3] = new Pracownik("Nowak", "23472345", "sprz靖acz", 1500, 8);
+		b.tab[3] = new Pracownik("Nowak", "23472345", "sprzatacz", 1500, 8);
 		b.tab[4] = new Pracownik("Wolska", "94653264", "bibliotekarka", 2600, 11);
 		b.tab[5] = new Czytelnik("G這wacki", "86345134", 3);//
 		b.tab[6] = new Czytelnik("Malska", "14734954", 5);//
 		b.tab[7] = new Pracownik("Wolski", "64267843", "dyrektor", 2700, 13);
 		
-		for(int i = 0; i<b.tab.length; i++) 	//ile jest faktycznie osob w tablicy
+		for(int i = 0; i<b.tab.length; i++) 	//ile jest faktycznie osob w tablicy ? trudne to wszystko
 		{
 			if(b.tab[i] != null)
 				b.n++;
@@ -35,7 +35,7 @@ public class Biblioteka {
 			if(b.tab[i] instanceof Pracownik )
 			{
 				System.out.printf("%s", b.tab[i].toString());
-				( (Pracownik)b.tab[i] ).wyietlLiczb燋adgodzin();
+				( (Pracownik)b.tab[i] ).wyswietlLiczbenadgodzin();
 			}
 				
 		}
