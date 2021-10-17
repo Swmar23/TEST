@@ -74,10 +74,10 @@ public class Biblioteka {
 		double max = 0;
 		int msce = 0;
 		for(int i = 0; i< b.n; i++)
-		{
+		{ 
 			if( (b.tab[i] instanceof Pracownik) )
 			{
-				if( ( (Pracownik)b.tab[i] ).Oblicz() > max )
+				if( ( (Pracownikiifmiofwmoifnfoinmiewnfiowe ojwj)b.tab[i] ).Oblicz() > max )
 				{
 					max = ( (Pracownik)b.tab[i] ).Oblicz();
 					msce = i;
